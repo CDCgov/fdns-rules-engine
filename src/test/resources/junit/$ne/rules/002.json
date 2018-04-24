@@ -1,0 +1,9 @@
+{
+    "$ne": {
+        "$.contacts[*]": {
+            "age": 30,
+            "score": 0.6,
+            "enabled": false
+        }
+    }
+}

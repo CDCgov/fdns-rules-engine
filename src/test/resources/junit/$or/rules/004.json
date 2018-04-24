@@ -1,0 +1,27 @@
+{
+    "$or": [
+        {
+            "$or": [
+                {
+                    "$exists": {
+                        "$.contacts[*]": {
+                            "age": true
+                        }
+                    }
+                },
+                {
+                    "$exists": {
+                        "$.contacts[*]": {
+                            "dob": true
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "$exists": {
+                "$.information": true
+            }
+        }
+    ]
+}

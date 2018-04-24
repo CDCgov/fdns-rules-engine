@@ -1,0 +1,9 @@
+{
+    "$exists": {
+    	"$comment": "This rule has been created to check the existence (or not) of the basic fields.",
+        "$.contact.name": true,
+        "$.contact": true,
+        "$.mycontact": false,
+        "$.contact.age": false
+    }
+}

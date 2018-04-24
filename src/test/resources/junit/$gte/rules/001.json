@@ -1,0 +1,8 @@
+{
+    "$gte": {
+        "$.contact.name": "B",
+        "$.contact.age": 18,
+        "$.contact.score": 0.5,
+        "$.contact.enabled": false
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "$lte": {
+        "$.contact.name": "C",
+        "$.contact.age": 18,
+        "$.contact.score": 0.5,
+        "$.contact.enabled": true
+    }
+}

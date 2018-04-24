@@ -1,0 +1,17 @@
+{
+    "contacts": [
+        {
+            "name": "Ben",
+            "age": 33,
+            "score": 0.5,
+            "enabled": true,
+            "ip": "192.168.0.1"
+        },
+        {
+            "name": "John",
+            "age": 29,
+            "score": 0.4,
+            "enabled": true
+        }
+    ]
+}

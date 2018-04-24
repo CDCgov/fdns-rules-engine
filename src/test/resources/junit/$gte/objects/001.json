@@ -1,0 +1,9 @@
+{
+    "contact": {
+        "name": "Charlie",
+        "age": 19,
+        "score": 0.5,
+        "enabled": true,
+        "ip": null
+    }
+}

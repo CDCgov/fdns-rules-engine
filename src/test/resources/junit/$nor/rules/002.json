@@ -1,0 +1,14 @@
+{
+    "$nor": [
+        {
+            "$exists": {
+                "$.contacts": true
+            }
+        },
+        {
+            "$exists": {
+                "$.info": true
+            }
+        }
+    ]
+}

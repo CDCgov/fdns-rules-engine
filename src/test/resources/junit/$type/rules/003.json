@@ -1,0 +1,10 @@
+{
+    "$type": {
+        "$.contacts[*]": {
+            "name": "String",
+            "age": "Number",
+            "score": "Number",
+            "hobbies": "Array"
+        }
+    }
+}

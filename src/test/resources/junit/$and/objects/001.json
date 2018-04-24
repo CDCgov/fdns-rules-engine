@@ -1,0 +1,28 @@
+{
+    "contacts": [
+        {
+            "name": "Ben",
+            "age": 33,
+            "score": 0.6,
+            "enabled": true,
+            "hobbies": [
+                "Cinema",
+                "Travel"
+            ]
+        },
+        {
+            "name": "John",
+            "age": 28,
+            "dob": 1486747153,
+            "score": 0.2,
+            "enabled": false,
+            "hobbies": [
+                "Cinema"
+            ]
+        }
+    ],
+    "info": {
+        "exported": 1486747153,
+        "success": true
+    }
+}

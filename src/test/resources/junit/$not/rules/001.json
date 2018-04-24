@@ -1,0 +1,9 @@
+{
+    "$not": {
+        "$exists": {
+            "$.contacts[*]": {
+                "age": true
+            }
+        }
+    }
+}

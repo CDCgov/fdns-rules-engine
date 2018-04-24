@@ -1,0 +1,26 @@
+{
+    "$nin": {
+        "$.contact.name": [
+            "System",
+            "Admin",
+            "N/a"
+        ],
+        "$.contact.age": [
+            18,
+            19,
+            20,
+            "N/a"
+        ],
+        "$.contact.score": [
+            0,
+            0.5
+        ],
+        "$.contact.enabled": [
+            false
+        ],
+        "$.contact.ip": [
+            null,
+            "0.0.0.0"
+        ]
+    }
+}

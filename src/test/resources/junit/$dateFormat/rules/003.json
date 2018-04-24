@@ -1,0 +1,5 @@
+{
+    "$dateFormat": {
+        "$.val-1": "yyyyMMdd"
+    }
+}

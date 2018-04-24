@@ -1,0 +1,9 @@
+{
+    "$exists": {
+    	"$description": "Error description message",
+        "$.contact.name": true,
+        "$.contact": true,
+        "$.mycontact": false,
+        "$.contact.age": false
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "$eq": {
+        "$.contacts[*]": {
+            "age": 33,
+            "score": 0.6,
+            "enabled": true
+        }
+    }
+}

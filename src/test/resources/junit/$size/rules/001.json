@@ -1,0 +1,5 @@
+{
+    "$size": {
+        "$.contact.hobbies": 3
+    }
+}

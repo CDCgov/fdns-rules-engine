@@ -1,0 +1,9 @@
+{
+    "$gt": {
+        "$.contacts[*]": {
+            "age": 18,
+            "score": 0.5,
+            "enabled": false
+        }
+    }
+}

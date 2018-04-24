@@ -1,0 +1,7 @@
+{
+    "$dateFormat": {
+        "$.contacts": {
+            "$.dob": "yyyyMMdd"
+        }
+    }
+}

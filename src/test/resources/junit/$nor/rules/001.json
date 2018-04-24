@@ -1,0 +1,18 @@
+{
+    "$nor": [
+        {
+            "$exists": {
+                "$.contacts[*]": {
+                    "age": true
+                }
+            }
+        },
+        {
+            "$exists": {
+                "$.contacts[*]": {
+                    "dob": true
+                }
+            }
+        }
+    ]
+}

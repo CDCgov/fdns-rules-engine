@@ -1,0 +1,5 @@
+{
+    "$noDuplicate": {
+        "$.contact.hobbies": true
+    }
+}

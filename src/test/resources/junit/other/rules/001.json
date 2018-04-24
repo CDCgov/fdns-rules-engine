@@ -1,0 +1,25 @@
+{
+    "$and": [
+        {
+            "$exists": {
+                "$description": "PID-5",
+                "$comment": "The message shouldn't contain any information related to the patient name.",
+                "$..PID-5": false
+            }
+        },
+        {
+            "$exists": {
+                "$description": "PID-7",
+                "$comment": "The message shouldn't contain any information related to the patient date of birth.",
+                "$..PID-7": false
+            }
+        },
+        {
+            "$exists": {
+                "$description": "PID-8",
+                "$comment": "The message shouldn't contain any information related to the patient sex.",
+                "$..PID-8": false
+            }
+        }
+    ]
+}

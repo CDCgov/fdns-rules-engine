@@ -1,0 +1,8 @@
+{
+    "$exists": {
+        "$.contacts": true,
+        "$.contacts[*]": {
+            "sex": false
+        }
+    }
+}

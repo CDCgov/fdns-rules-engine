@@ -1,0 +1,28 @@
+{
+    "$in": {
+        "$.contact.name": [
+            "Ben",
+            "John",
+            "Harry"
+        ],
+        "$.contact.age": [
+            30,
+            31,
+            32,
+            33,
+            "N/a"
+        ],
+        "$.contact.score": [
+            0,
+            0.6
+        ],
+        "$.contact.enabled": [
+            true,
+            false
+        ],
+        "$.contact.ip": [
+            null,
+            "0.0.0.0"
+        ]
+    }
+}

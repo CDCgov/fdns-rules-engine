@@ -1,0 +1,9 @@
+{
+    "$ne": {
+        "$.contact.name": "System",
+        "$.contact.age": 18,
+        "$.contact.score": 0.5,
+        "$.contact.enabled": false,
+        "$.contact.ip": null
+    }
+}

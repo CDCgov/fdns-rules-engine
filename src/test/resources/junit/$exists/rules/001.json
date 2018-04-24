@@ -1,0 +1,8 @@
+{
+    "$exists": {
+        "$.contact.name": true,
+        "$.contact": true,
+        "$.mycontact": false,
+        "$.contact.age": false
+    }
+}
