@@ -11,14 +11,14 @@
 	<url>https://github.com/CDCgov/fdns-rules-engine</url>
 
 	<licenses>
-    <license>
-      <name>Apache License, Version 2.0</name>
-      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
-      <distribution>repo</distribution>
-    </license>
-  </licenses>
+		<license>
+			<name>Apache License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
 
-  <issueManagement>
+	<issueManagement>
 		<url>https://github.com/CDCgov/fdns-rules-engine/issues</url>
 		<system>GitHub Issues</system>
 	</issueManagement>
