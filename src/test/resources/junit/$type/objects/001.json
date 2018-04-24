@@ -1,0 +1,14 @@
+{
+    "contact": {
+        "name": "Ben",
+        "age": 33,
+        "score": 0.6,
+        "enabled": true,
+        "hobbies": [
+            "Cinema",
+            "Travel"
+        ],
+        "active": [true, false, true],
+        "scores": [0, 1, 12.5]
+    }
+}

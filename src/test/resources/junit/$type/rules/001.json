@@ -1,0 +1,12 @@
+{
+    "$type": {
+        "$.contact": "Object",
+        "$.contact.name": "String",
+        "$.contact.age": "Number",
+        "$.contact.score": "Number",
+        "$.contact.hobbies": "Array",
+        "$.contact.enabled": "Boolean",
+        "$.contact.active": "Boolean",
+        "$.contact.scores": "Number"
+    }
+}

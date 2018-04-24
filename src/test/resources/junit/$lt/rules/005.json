@@ -1,0 +1,7 @@
+{
+    "$lt": {
+        "$.contacts[*]": {
+            "enabled": true
+        }
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "$eq": {
+        "$.contact.name": "Ben",
+        "$.contact.age": 33,
+        "$.contact.score": 0.6,
+        "$.contact.enabled": true,
+        "$.contact.ip": null
+    }
+}

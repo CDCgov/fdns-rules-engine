@@ -1,0 +1,7 @@
+{
+    "$gt": {
+        "$.contacts[*]": {
+            "enabled": false
+        }
+    }
+}

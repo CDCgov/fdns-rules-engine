@@ -1,0 +1,7 @@
+{
+    "$size": {
+        "$.contacts[*]": {
+            "hobbies": 2
+        }
+    }
+}

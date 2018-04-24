@@ -1,0 +1,9 @@
+{
+    "$nin": {
+        "$.contacts[*]": {
+            "enabled": [
+                false
+            ]
+        }
+    }
+}

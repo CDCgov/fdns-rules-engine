@@ -1,0 +1,5 @@
+{
+    "$regex": {
+        "$.contact.name": "[A-Z][a-z]*"
+    }
+}

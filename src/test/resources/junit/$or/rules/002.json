@@ -1,0 +1,14 @@
+{
+    "$or": [
+        {
+            "$exists": {
+                "$.contacts": true
+            }
+        },
+        {
+            "$exists": {
+                "$.info": true
+            }
+        }
+    ]
+}

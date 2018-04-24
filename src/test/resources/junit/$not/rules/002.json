@@ -1,0 +1,16 @@
+{
+    "$and": [
+        {
+            "$exists": {
+                "$.contacts": true
+            }
+        },
+        {
+            "$not": {
+                "$exists": {
+                    "$.info": true
+                }
+            }
+        }
+    ]
+}

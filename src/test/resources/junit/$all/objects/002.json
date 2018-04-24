@@ -1,0 +1,26 @@
+{
+    "contacts": [
+        {
+            "name": "Ben",
+            "age": 33,
+            "score": 0.5,
+            "enabled": true,
+            "ip": null,
+            "hobbies": [
+                "Cinema",
+                "Ski"
+            ]
+        },
+        {
+            "name": "John",
+            "age": 30,
+            "score": 1,
+            "enabled": true,
+            "hobbies": [
+                "Cinema",
+                "Travel",
+                "Ski"
+            ]
+        }
+    ]
+}

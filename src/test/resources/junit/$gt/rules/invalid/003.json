@@ -1,0 +1,7 @@
+{
+    "$gt": {
+        "$.contact": {
+         	"firstname" : "Ben"
+        }
+    }
+}

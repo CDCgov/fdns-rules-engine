@@ -1,0 +1,9 @@
+{
+    "$all": {
+        "$.contacts[*]": {
+            "hobbies": [
+                "Travel"
+            ]
+        }
+    }
+}

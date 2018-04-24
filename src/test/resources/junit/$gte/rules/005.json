@@ -1,0 +1,7 @@
+{
+    "$gte": {
+        "$.contacts[*]": {
+            "enabled": true
+        }
+    }
+}

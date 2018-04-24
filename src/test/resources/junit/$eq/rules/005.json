@@ -1,0 +1,7 @@
+{
+    "$eq": {
+        "$.contacts[*]": {
+            "enabled": true
+        }
+    }
+}

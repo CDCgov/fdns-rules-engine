@@ -1,0 +1,14 @@
+{
+    "$and": [
+        {
+            "$exists": {
+                "$.contacts": true
+            }
+        },
+        {
+            "$exists": {
+                "$.info": true
+            }
+        }
+    ]
+}
