@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>gov.cdc</groupId>
 	<artifactId>fdns-rules-engine</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<packaging>jar</packaging>
 
 	<name>FDNS Rules Engine</name>
@@ -65,7 +65,7 @@
 		<dependency>
 			<groupId>io.github.lukehutch</groupId>
 			<artifactId>fast-classpath-scanner</artifactId>
-			<version>LATEST</version>
+			<version>2.21</version>
 		</dependency>
 		<dependency>
 			<groupId>junit</groupId>
