@@ -7,6 +7,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import org.apache.commons.codec.Charsets;
 import org.apache.commons.io.IOUtils;
 import org.apache.log4j.Logger;
 import org.json.JSONObject;
@@ -26,7 +27,7 @@ public abstract class AbstractValidator implements Validator {
 	public void initialize(InputStream rules) throws ValidatorException {
 		String rulesStr;
 		try {
-			rulesStr = IOUtils.toString(rules);
+			rulesStr = IOUtils.toString(rules, Charsets.UTF_8);
 		} catch (IOException e) {
 			throw new ValidatorException(e);
 		}
@@ -40,7 +41,7 @@ public abstract class AbstractValidator implements Validator {
 	public ValidationResult validate(InputStream object) throws ValidatorException {
 		String rulesStr;
 		try {
-			rulesStr = IOUtils.toString(object);
+			rulesStr = IOUtils.toString(object, Charsets.UTF_8);
 		} catch (IOException e) {
 			throw new ValidatorException(e);
 		}
