@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/CDCgov/fdns-rules-engine.svg?branch=master)](https://travis-ci.org/CDCgov/fdns-rules-engine)
+
 # FDNS Rules Engine
 This is the repository with the Java Library for the Business Rules Engine.
 
